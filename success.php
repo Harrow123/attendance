@@ -28,11 +28,11 @@
     }
 ?>
 
-<h1 class="text-center text-success">You Have Been Registered</h1>
+
 
     <!--This prints out values that were passed to the action page using the method get-->
     <!--<div class="card" style="width: 18rem;">
-        <div class="card-body">
+        <div class="card-body"> <h1 class="text-center text-success">You Have Been Registered</h1>
             <h5 class="card-title">
                 <?php //echo $_GET['firstname'] . " " . $_GET['lastname']; ?> </h5>
             <h6 class="card-subtitle mb-2 text-muted">    
