@@ -5,10 +5,10 @@
     class SendEmail{
 
         public static function SendMail($to,$subject,$content){
-            $key = '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';
+            $key = '';
 
             $email = new \SendGrid\Mail\Mail();
-            $email->setFrom("kenroy.harrow@jcf.gov.jm", "Kenroy Harrow");
+            $email->setFrom("harrow_911@hotmail.com", "Kenroy Harrow");
             $email->setSubject($subject);
             $email->addTo($to);
             //$email->addContent("text/html", $content);
