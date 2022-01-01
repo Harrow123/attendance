@@ -33,19 +33,18 @@
         </div>
 
         <div class="form-group">
-            <label for="email" class="col-sm-4 col-form-label">Email</label>
+            <label for="email" class="col-sm-4 col-form-label">Email Address</label>
             <div class="col-sm-10">
                 <input required type="text" class="form-control" id="email" name="email">
             </div>
         </div>
 
         <div class="form-group">
-            <label for="phone" class="col-sm-4 col-form-label">Phone Number</label>
+            <label for="phone" class="col-sm-4 col-form-label">Contact Number</label>
             <div class="col-sm-10">
                 <input type="text" class="form-control" id="phone" name="phone">
             </div>
         </div>
-
 
         <div class="form-group">
             <label for="specialty">Area of Expertise</label>
@@ -58,8 +57,16 @@
             </div>
         </div>
 
+            
+            <div class="custom-file">
+            <input type="file" accept ="image/*" class="custom-file-input" id="avatar" name="avatar">
+            <label class="custom-file-label" for="avatar">Choose File</label>
+            <small id="avatar" class="form-text text-danger">File Upload is Optional</small>
+        </div>
+
+
         <br>
         <button type="submit" name="submit" class="btn btn-primary">Sign in</button>
     </form>
-        <br>
- 
+<br>
+ <?php require_once 'includes/footer.php'; ?>

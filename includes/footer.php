@@ -1,7 +1,8 @@
 
+  <div id="footer" class="p-3 bg-primary text-white fixed-bottom"></div>
+    <p class="text-center"> Copyright &copy; - IT Conference Attendee System <?php echo data('Y'); ?></p>
 
-    <div id="footer">
-      <?php echo 'Copyright '. date('y'); ?>
+
     </div>
   
 <!-- Optional JavaScript; choose one of the two! -->
@@ -22,7 +23,7 @@
           $( "#dob" ).datepicker({
             changeMonth: true,
             changeYear: true,
-            yearRange: "-100: +0",
+            yearRange: "-100:+0",
             dateformat: "yy-mm-dd"
           });
       } );
