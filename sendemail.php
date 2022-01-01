@@ -8,7 +8,7 @@
             $key = '';
 
             $email = new \SendGrid\Mail\Mail();
-            $email->setFrom("harrow_911@hotmail.com", "Kenroy Harrow");
+            $email->setFrom("harrowk9@gmail.com", "Kenroy Harrow");
             $email->setSubject($subject);
             $email->addTo($to);
             //$email->addContent("text/html", $content);
