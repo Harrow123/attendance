@@ -1,7 +1,7 @@
 
-    <div id="footer" class="p-3 text-danger fixed-bottom">
+    
     <p class="text-center"> Copyright &copy; - IT Conference Attendee System </p>
-  
+    <p id="footer" class="text-danger fixed-bottom"></p>
 
     </div>
   
