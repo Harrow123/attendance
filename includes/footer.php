@@ -1,7 +1,7 @@
 
-    
-    <p class="text-center"> Copyright &copy; - IT Conference Attendee System </p>
     <p id="footer" class="text-danger fixed-bottom"></p>
+    <p class="text-center"> Copyright &copy; - IT Conference Attendee System </p>
+    
 
     </div>
   
@@ -24,7 +24,7 @@
             changeMonth: true,
             changeYear: true,
             yearRange: "-100:+0",
-            dateformat: "dd-mm-yy"
+            dateformat: "yy-mm-dd"
           });
       } );
     </script>
